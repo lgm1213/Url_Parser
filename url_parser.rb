@@ -25,7 +25,7 @@ class UrlParser
 
 	def path
 		@path = @new_url.split("/").last.split("?").first
-		if @path == "" 
+		if @path == ""
 			return nil
 		else
 			@path
@@ -48,7 +48,7 @@ class UrlParser
 
 end
 
-
+#comment
 
 
 
